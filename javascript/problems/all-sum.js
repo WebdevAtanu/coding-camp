@@ -1,3 +1,7 @@
+/*
+explanation: This code takes a list of numbers as input from the user, splits them into an array, and then calculates the sum of all the numbers in the array. It uses the readline module to get user input from the terminal. The sumAll function iterates through each element in the array, converts it to an integer, and adds it to a running total. Finally, it returns the total sum which is printed to the console.
+*/
+
 import readline from 'readline';
 
 // readline module is used to get user input from the terminal

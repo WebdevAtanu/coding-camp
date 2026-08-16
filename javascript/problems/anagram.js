@@ -1,3 +1,7 @@
+/*
+explanation: This code defines a function called anagram that checks if two strings are anagrams of each other. An anagram is a word or phrase formed by rearranging the letters of another, such as "listen" and "silent". The function first removes spaces and converts both strings to lowercase to ensure the comparison is case-insensitive and ignores whitespace. It then checks if the lengths of the cleaned strings are equal; if not, it returns false. Next, it creates frequency maps for both strings, counting the occurrences of each character. Finally, it compares the frequency maps; if they match, the function returns true, indicating that the strings are anagrams, otherwise it returns false.
+*/
+
 function anagram(str1, str2) {
     // Remove spaces and convert to lowercase
     const cleanStr1 = str1.replace(/\s+/g, '').toLowerCase();

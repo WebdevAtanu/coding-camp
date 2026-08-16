@@ -1,3 +1,7 @@
+/*
+explanation: This code defines a function called twoSum that takes an array of integers (nums) and a target integer (target) as input. The function searches for two distinct numbers in the array that add up to the target value. It uses a nested loop to iterate through the array, checking each pair of numbers. If a pair is found that sums to the target and consists of different elements, the function returns their indices as an array. The example usage demonstrates finding the indices of the numbers 2 and 7 in the array [2, 7, 11, 15] that add up to 9, which returns [0, 1].
+*/
+
 const nums = [2, 7, 11, 15];
 const target = 9;
 

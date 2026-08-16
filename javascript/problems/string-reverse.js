@@ -1,3 +1,7 @@
+/*
+explanation: This code defines a function called stringReverse that reverses a given string without using the built-in reverse method. The function first converts the string into an array of characters, then iterates through the first half of the array, swapping each character with its corresponding character from the end of the array. After all swaps are completed, the array is joined back into a string and returned. The example usage demonstrates reversing the string "Hello, World!" which results in "!dlroW ,olleH".
+*/
+
 function stringReverse(str) {
     const stringArr = str.split(''); // Convert the string to an array of characters
     let i; // Initialize the loop variable

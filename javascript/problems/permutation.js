@@ -1,3 +1,7 @@
+/*
+explanation: This code defines a function called permutation that generates all possible permutations of a given string. It uses a recursive approach to build the permutations by selecting each character one at a time and generating permutations of the remaining characters. The function initializes an empty array to store the results and returns it once all permutations are generated.
+*/
+
 function permutation(str){
     let result = [] // Initialize an empty array to store the permutations
     if(str.length === 1){
